@@ -123,7 +123,7 @@ Penjelasan:
 - **cari.php** → fitur pencarian alumni
 - **verifikasi.php** → proses verifikasi alumni
 - **database.php** → koneksi database MySQL
-- 
+
 ## Pengujian Sistem
 
 | No | Fitur | Langkah Pengujian | Hasil |
