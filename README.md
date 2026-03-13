@@ -116,7 +116,7 @@ CREATE TABLE alumni(
 ![Cari Alumni](screenshots/cari.png)
 
 ### Edit Alumni
-![edit Alumni](screenshots/edit.png.png)
+![edit Alumni](screenshots/edit.png)
 
 
 ## Author
