@@ -76,7 +76,9 @@ alumni-tracker
 Buat database dengan nama: alumni_tracker
 alumni_tracker
 
-###Lalu jalankan SQL berikut:
+---
+
+Lalu jalankan SQL berikut:
 
 CREATE TABLE alumni(
 id INT AUTO_INCREMENT PRIMARY KEY,
@@ -121,6 +123,7 @@ status VARCHAR(30)
 
 ## Author
 
-Nama : (Isi nama kamu)  
-Mata Kuliah : Rekayasa Kebutuhan  
+Nama : Nurdiono Ilham Syawal Riyadi
+NIM  : 202310370311164
+Mata Kuliah : Rekayasa Kebutuhan C 
 Project : Daily Project
