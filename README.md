@@ -81,8 +81,19 @@ status VARCHAR(30)
 | 3 | Verifikasi Alumni | Klik tombol verifikasi | Berhasil |
 | 4 | Menampilkan Data | Data alumni muncul di dashboard | Berhasil |
 
-## Author
 
+## Tampilan Sistem
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Tambah Alumni
+![Tambah Alumni](screenshots/tambah.png)
+
+### Cari Alumni
+![Cari Alumni](screenshots/cari.png)
+
+## Author
 Nama : Nurdiono Ilham Syawal Riyadi
 NIM   : 202310370311164
 Mata Kuliah : Rekayasa Kebutuhan C
