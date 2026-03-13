@@ -83,8 +83,9 @@ status VARCHAR(30)
 
 ## Author
 
-Nama : (Isi nama kamu)  
-Mata Kuliah : Rekayasa Kebutuhan  
+Nama : Nurdiono Ilham Syawal Riyadi
+NIM   : 202310370311164
+Mata Kuliah : Rekayasa Kebutuhan C
 Project : Daily Project
 
 
