@@ -121,7 +121,7 @@ CREATE TABLE alumni(
 
 ## Author
 
-Nama : Nurdiono Ilham Syawal Riyadi
-NIM  : 202310370311164
-Mata Kuliah : Rekayasa Kebutuhan C 
-Project : Daily Project
+- Nama : Nurdiono Ilham Syawal Riyadi
+- NIM : 202310370311164
+- Mata Kuliah : Rekayasa Kebutuhan C
+- Project : Daily Project
