@@ -106,7 +106,7 @@ CREATE TABLE alumni(
 
 ## Tampilan Sistem
 
-### Dashboard
+### Dasboard
 ![Dashboard](screenshots/dashboard.png)
 
 ### Tambah Alumni
