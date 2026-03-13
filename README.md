@@ -1,8 +1,8 @@
 🎓 Alumni Tracker
 
-Alumni Tracker adalah aplikasi web sederhana berbasis PHP dan MySQL yang digunakan untuk melacak data alumni seperti program studi, pekerjaan, dan status verifikasi.
+Alumni Tracker adalah aplikasi web sederhana berbasis PHP dan MySQL yang digunakan untuk mengelola dan melacak data alumni seperti program studi, pekerjaan, lokasi kerja, dan status verifikasi alumni.
 
-Aplikasi ini dibuat sebagai tugas pengembangan aplikasi web.
+Aplikasi ini dibuat sebagai tugas pengembangan aplikasi web pada mata kuliah Rekayasa Kebutuhan.
 
 🚀 Fitur Aplikasi
 
@@ -15,6 +15,8 @@ Menampilkan informasi ringkas mengenai:
 Total alumni
 
 Total alumni yang telah diverifikasi
+
+Daftar data alumni
 
 2️⃣ Tambah Data Alumni
 
@@ -89,74 +91,7 @@ alumni-tracker
 ├── delete.php
 ├── database.php
 └── README.md
-Cara Menjalankan Project
-
-Install XAMPP
-
-Jalankan Apache dan MySQL
-
-Copy folder project ke:
-
-C:\xampp\htdocs
-
-Buka browser dan akses:
-
-http://localhost/alumni-tracker
-Database
-
-Buat database dengan nama:
-
-alumni_tracker
-
-Lalu jalankan SQL berikut:
-
-CREATE TABLE alumni(
-id INT AUTO_INCREMENT PRIMARY KEY,
-nama VARCHAR(100),
-prodi VARCHAR(100),
-tahun_lulus INT,
-pekerjaan VARCHAR(100),
-lokasi VARCHAR(100),
-status VARCHAR(30)
-);
-Pengujian Sistem
-No	Fitur	Langkah Pengujian	Hasil
-1	Tambah Alumni	Mengisi form tambah alumni	Berhasil
-2	Cari Alumni	Mencari alumni berdasarkan nama	Berhasil
-3	Verifikasi Alumni	Klik tombol verifikasi	Berhasil
-4	Menampilkan Data	Data alumni muncul di dashboard	Berhasil
-5	Edit Alumni	Mengubah data alumni	Berhasil
-6	Delete Alumni	Menghapus data alumni	Berhasil
-Tampilan Sistem
-Dashboard
-
-Tambah Alumni
-
-Cari Alumni
-
-Edit Data Alumni
-
-Struktur Project
-alumni-tracker
-│
-├── assets
-│   └── style.css
-│
-├── components
-│   ├── header.php
-│   └── sidebar.php
-│
-├── index.php
-├── tambah.php
-├── simpan.php
-├── cari.php
-├── verifikasi.php
-├── edit.php
-├── update.php
-├── delete.php
-└── database.php
-
-Penjelasan:
+Penjelasan Struktur
 
 assets → berisi file CSS untuk tampilan
 
@@ -180,7 +115,45 @@ delete.php → menghapus data alumni
 
 database.php → koneksi database MySQL
 
-Pengujian Sistem
+⚙️ Cara Menjalankan Project
+1️⃣ Install XAMPP
+
+Download dan install XAMPP.
+
+2️⃣ Jalankan Server
+
+Buka XAMPP Control Panel lalu jalankan:
+
+Apache
+MySQL
+3️⃣ Copy Project
+
+Copy folder project ke:
+
+C:\xampp\htdocs
+4️⃣ Jalankan Project
+
+Buka browser dan akses:
+
+http://localhost/alumni-tracker
+🗄 Database
+
+Buat database dengan nama:
+
+alumni_tracker
+
+Lalu jalankan SQL berikut:
+
+CREATE TABLE alumni(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nama VARCHAR(100),
+prodi VARCHAR(100),
+tahun_lulus INT,
+pekerjaan VARCHAR(100),
+lokasi VARCHAR(100),
+status VARCHAR(30)
+);
+🧪 Pengujian Sistem
 No	Fitur	Langkah Pengujian	Hasil
 1	Dashboard	Membuka halaman utama	Berhasil
 2	Tambah Alumni	Mengisi form tambah alumni	Berhasil
@@ -188,7 +161,16 @@ No	Fitur	Langkah Pengujian	Hasil
 4	Verifikasi Alumni	Klik tombol verifikasi	Berhasil
 5	Edit Alumni	Mengubah data alumni	Berhasil
 6	Delete Alumni	Menghapus data alumni	Berhasil
-Author
+🖥 Tampilan Sistem
+Dashboard
+
+Tambah Alumni
+
+Cari Alumni
+
+Edit Data Alumni
+
+👨‍💻 Author
 
 Nama : Nurdiono Ilham Syawal Riyadi
 NIM : 202310370311164
