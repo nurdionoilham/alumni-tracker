@@ -70,22 +70,24 @@ alumni-tracker
 4. Buka browser dan akses: http://localhost/alumni-tracker
 
 ## Database
-Buat database dengan nama: alumni_tracker
-alumni_tracker
 
----
+Buat database dengan nama: alumni_tracker
+
+
+```
 
 Lalu jalankan SQL berikut:
-
+```sql
 CREATE TABLE alumni(
-id INT AUTO_INCREMENT PRIMARY KEY,
-nama VARCHAR(100),
-prodi VARCHAR(100),
-tahun_lulus INT,
-pekerjaan VARCHAR(100),
-lokasi VARCHAR(100),
-status VARCHAR(30)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    prodi VARCHAR(100),
+    tahun_lulus INT,
+    pekerjaan VARCHAR(100),
+    lokasi VARCHAR(100),
+    status VARCHAR(30)
 );
+```
 
 
 ---
