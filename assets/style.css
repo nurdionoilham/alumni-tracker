@@ -1,0 +1,35 @@
+body{
+background:#f1f5f9;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar{
+width:230px;
+min-height:100vh;
+background:#1e293b;
+}
+
+.sidebar .nav-link{
+color:#cbd5f5;
+padding:12px 20px;
+}
+
+.sidebar .nav-link:hover{
+background:#334155;
+color:white;
+border-radius:6px;
+}
+
+.logo{
+background:#0f172a;
+}
+
+.content{
+background:white;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+table{
+background:white;
+}
