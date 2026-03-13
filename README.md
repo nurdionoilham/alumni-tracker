@@ -123,24 +123,15 @@ Penjelasan:
 - **cari.php** → fitur pencarian alumni
 - **verifikasi.php** → proses verifikasi alumni
 - **database.php** → koneksi database MySQL
+- 
+## Pengujian Sistem
 
----
-
-# 3️⃣ Contoh README yang Lengkap
-
-Biasanya README akan memiliki urutan seperti ini:
-
-
-Judul Project
-Deskripsi Sistem
-Fitur Sistem
-Teknologi yang Digunakan
-Screenshot Aplikasi
-Struktur Project
-Cara Menjalankan Project
-Database
-Pengujian Sistem
-Author
+| No | Fitur | Langkah Pengujian | Hasil |
+|----|------|------------------|------|
+| 1 | Dashboard | Membuka halaman utama | Berhasil |
+| 2 | Tambah Alumni | Mengisi form tambah alumni | Berhasil |
+| 3 | Cari Alumni | Mencari alumni berdasarkan nama | Berhasil |
+| 4 | Verifikasi Alumni | Klik tombol verifikasi | Berhasil |
   
 ## Author
 Nama : Nurdiono Ilham Syawal Riyadi
