@@ -76,7 +76,7 @@ alumni-tracker
 Buat database dengan nama: alumni_tracker
 alumni_tracker
 
-Lalu jalankan SQL berikut:
+###Lalu jalankan SQL berikut:
 
 CREATE TABLE alumni(
 id INT AUTO_INCREMENT PRIMARY KEY,
