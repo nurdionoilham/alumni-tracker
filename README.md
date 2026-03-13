@@ -40,30 +40,27 @@ Sistem ini dibuat menggunakan teknologi berikut:
 - CSS
 - XAMPP
 
----
-
 ## Struktur Project
+
 Struktur folder pada project ini:
 
-
+```
 alumni-tracker
 │
 ├── assets
-│ └── style.css
+│   └── style.css
 │
 ├── components
-│ ├── header.php
-│ └── sidebar.php
+│   ├── header.php
+│   └── sidebar.php
 │
 ├── index.php
 ├── tambah.php
 ├── simpan.php
 ├── cari.php
 ├── verifikasi.php
-└── database.php
-
-
----
+├── database.php
+```
 
 ## Cara Menjalankan Project
 
