@@ -107,7 +107,7 @@ CREATE TABLE alumni(
 ## Tampilan Sistem
 
 ### Dasboard
-![Dashboard](screenshots/dashboard.png)
+![dashboard](screenshots/dashboard.png)
 
 ### Tambah Alumni
 ![Tambah Alumni](screenshots/tambah.png)
@@ -116,7 +116,7 @@ CREATE TABLE alumni(
 ![Cari Alumni](screenshots/cari.png)
 
 ### Edit Alumni
-![Edit Alumni](screenshots/edit.png)
+![edit Alumni](screenshots/edit.png)
 
 
 ## Author
