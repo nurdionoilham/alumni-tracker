@@ -1,145 +1,79 @@
-🎓 Alumni Tracker
+# Alumni Tracker System
 
-Alumni Tracker adalah aplikasi web sederhana berbasis PHP dan MySQL yang digunakan untuk mengelola dan melacak data alumni seperti program studi, pekerjaan, lokasi kerja, dan status verifikasi alumni.
+## Deskripsi Sistem
+Alumni Tracker adalah sistem berbasis web yang digunakan untuk mencatat dan melacak data alumni seperti nama, program studi, pekerjaan, lokasi kerja, dan status verifikasi alumni.
 
-Aplikasi ini dibuat sebagai tugas pengembangan aplikasi web pada mata kuliah Rekayasa Kebutuhan.
+Sistem ini dibuat untuk membantu pengelolaan data alumni secara lebih terstruktur dan mudah diakses.
 
-🚀 Fitur Aplikasi
+---
 
-Aplikasi ini memiliki beberapa fitur utama:
+## Fitur Sistem
+Fitur yang tersedia pada sistem ini:
 
-1️⃣ Dashboard Alumni
+1. Dashboard Alumni  
+Menampilkan daftar seluruh data alumni yang tersimpan di database.
 
-Menampilkan informasi ringkas mengenai:
-
-Total alumni
-
-Total alumni yang telah diverifikasi
-
-Daftar data alumni
-
-2️⃣ Tambah Data Alumni
-
+2. Tambah Data Alumni  
 Admin dapat menambahkan data alumni baru ke dalam sistem.
 
-Data yang diinput:
-
-Nama
-
-Program Studi
-
-Tahun Lulus
-
-Pekerjaan
-
-Lokasi
-
-Status
-
-3️⃣ Cari Alumni
-
-Memungkinkan admin untuk mencari alumni berdasarkan nama atau data lainnya.
-
-4️⃣ Verifikasi Alumni
-
-Admin dapat memverifikasi status alumni sehingga status berubah menjadi Terverifikasi.
-
-5️⃣ Edit Data Alumni
-
+3.  Edit Data Alumni
 Admin dapat memperbarui informasi alumni jika terdapat kesalahan data.
 
-6️⃣ Delete Data Alumni
-
+4. Delete Data Alumni
 Admin dapat menghapus data alumni yang tidak diperlukan dari database.
 
-🛠 Teknologi yang Digunakan
+5. Cari Alumni  
+Pengguna dapat mencari data alumni berdasarkan nama.
 
-Aplikasi ini dibuat menggunakan teknologi berikut:
+6. Verifikasi Alumni  
+Admin dapat mengubah status alumni menjadi "Terverifikasi".
 
-PHP
+---
 
-MySQL
+## Teknologi yang Digunakan
+Sistem ini dibuat menggunakan teknologi berikut:
 
-Bootstrap
+- PHP
+- MySQL
+- Bootstrap
+- HTML
+- CSS
+- XAMPP
 
-HTML
+---
 
-CSS
+## Struktur Project
+Struktur folder pada project ini:
 
-XAMPP (Local Development)
-
-📂 Struktur Folder
-
-Struktur project:
 
 alumni-tracker
 │
 ├── assets
-│   └── style.css
+│ └── style.css
 │
 ├── components
-│   ├── header.php
-│   └── sidebar.php
+│ ├── header.php
+│ └── sidebar.php
 │
 ├── index.php
 ├── tambah.php
 ├── simpan.php
 ├── cari.php
 ├── verifikasi.php
-├── edit.php
-├── update.php
-├── delete.php
-├── database.php
-└── README.md
-Penjelasan Struktur
+└── database.php
 
-assets → berisi file CSS untuk tampilan
 
-components → berisi bagian layout seperti header dan sidebar
+---
 
-index.php → halaman dashboard utama
+## Cara Menjalankan Project
 
-tambah.php → halaman form tambah alumni
+1. Install XAMPP
+2. Jalankan Apache dan MySQL
+3. Copy folder project ke: C:\xampp\htdocs
+4. Buka browser dan akses: http://localhost/alumni-tracker
 
-simpan.php → proses menyimpan data ke database
-
-cari.php → fitur pencarian alumni
-
-verifikasi.php → proses verifikasi alumni
-
-edit.php → halaman edit data alumni
-
-update.php → proses update data alumni
-
-delete.php → menghapus data alumni
-
-database.php → koneksi database MySQL
-
-⚙️ Cara Menjalankan Project
-1️⃣ Install XAMPP
-
-Download dan install XAMPP.
-
-2️⃣ Jalankan Server
-
-Buka XAMPP Control Panel lalu jalankan:
-
-Apache
-MySQL
-3️⃣ Copy Project
-
-Copy folder project ke:
-
-C:\xampp\htdocs
-4️⃣ Jalankan Project
-
-Buka browser dan akses:
-
-http://localhost/alumni-tracker
-🗄 Database
-
-Buat database dengan nama:
-
+## Database
+Buat database dengan nama: alumni_tracker
 alumni_tracker
 
 Lalu jalankan SQL berikut:
@@ -153,26 +87,40 @@ pekerjaan VARCHAR(100),
 lokasi VARCHAR(100),
 status VARCHAR(30)
 );
-🧪 Pengujian Sistem
-No	Fitur	Langkah Pengujian	Hasil
-1	Dashboard	Membuka halaman utama	Berhasil
-2	Tambah Alumni	Mengisi form tambah alumni	Berhasil
-3	Cari Alumni	Mencari alumni berdasarkan nama	Berhasil
-4	Verifikasi Alumni	Klik tombol verifikasi	Berhasil
-5	Edit Alumni	Mengubah data alumni	Berhasil
-6	Delete Alumni	Menghapus data alumni	Berhasil
-🖥 Tampilan Sistem
-Dashboard
 
-Tambah Alumni
 
-Cari Alumni
+---
 
-Edit Data Alumni
+## Pengujian Sistem
 
-👨‍💻 Author
+| No | Fitur | Langkah Pengujian | Hasil |
+|----|------|------------------|------|
+| 1 | Tambah Alumni | Mengisi form tambah alumni | Berhasil |
+| 2 | Cari Alumni | Mencari alumni berdasarkan nama | Berhasil |
+| 3 | Verifikasi Alumni | Klik tombol verifikasi | Berhasil |
+| 4 | Menampilkan Data | Data alumni muncul di dashboard | Berhasil |
+| 5 | Edit Alumni | Mengubah data alumni | Berhasil |
+| 6 | Delete Alumni | Menghapus data alumni | Berhasil |
 
-Nama : Nurdiono Ilham Syawal Riyadi
-NIM : 202310370311164
-Mata Kuliah : Rekayasa Kebutuhan C
+---
+
+## Tampilan Sistem
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Tambah Alumni
+![Tambah Alumni](screenshots/tambah.png)
+
+### Cari Alumni
+![Cari Alumni](screenshots/cari.png)
+
+### Edit Data Alumni
+![Edit Alumni](screenshots/edit.png)
+
+
+## Author
+
+Nama : (Isi nama kamu)  
+Mata Kuliah : Rekayasa Kebutuhan  
 Project : Daily Project
