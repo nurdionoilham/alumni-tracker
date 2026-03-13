@@ -93,6 +93,55 @@ status VARCHAR(30)
 ### Cari Alumni
 ![Cari Alumni](screenshots/cari.png)
 
+## Struktur Project
+
+
+alumni-tracker
+│
+├── assets
+│ └── style.css
+│
+├── components
+│ ├── header.php
+│ └── sidebar.php
+│
+├── index.php
+├── tambah.php
+├── simpan.php
+├── cari.php
+├── verifikasi.php
+└── database.php
+
+
+Penjelasan:
+
+- **assets** → berisi file CSS untuk tampilan
+- **components** → berisi bagian layout seperti header dan sidebar
+- **index.php** → halaman dashboard utama
+- **tambah.php** → halaman form tambah alumni
+- **simpan.php** → proses menyimpan data ke database
+- **cari.php** → fitur pencarian alumni
+- **verifikasi.php** → proses verifikasi alumni
+- **database.php** → koneksi database MySQL
+
+---
+
+# 3️⃣ Contoh README yang Lengkap
+
+Biasanya README akan memiliki urutan seperti ini:
+
+
+Judul Project
+Deskripsi Sistem
+Fitur Sistem
+Teknologi yang Digunakan
+Screenshot Aplikasi
+Struktur Project
+Cara Menjalankan Project
+Database
+Pengujian Sistem
+Author
+  
 ## Author
 Nama : Nurdiono Ilham Syawal Riyadi
 NIM   : 202310370311164
